@@ -1,0 +1,2 @@
+Depth First Search -> Visit the tree unitl botto of the tree, then back track.
+Breadth first search -> Visit all the nodes in current level, once done, go to the next level.
