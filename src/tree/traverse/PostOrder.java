@@ -11,15 +11,11 @@ public class PostOrder {
     }
 
     private void postOrder(Node root) {
-        if (root.left!= null) {
+        if (root != null) {
             postOrder(root.left);
-        }
-
-        if (root.right!= null) {
             postOrder(root.right);
+            System.out.println(root.getValue());
         }
-
-        System.out.println(root.getValue());
     }
 
 }
